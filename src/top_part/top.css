@@ -1,0 +1,96 @@
+body{
+    margin:0;
+    padding:0;
+    font-size:16px;
+}
+#top--image img{
+    padding: 10px 10px;
+    height:350px;
+    width:95%;  
+}
+#image--down--part h1{
+    font-weight: 800;
+    padding:10px 10px;
+}
+#image--down--right p{
+  line-height: 1.8rem;
+  padding:8px 10px;
+}
+#image--down--right button{
+    width: 40%;
+    margin-bottom: 10%;
+    padding:10px 10px;
+    margin-left: 10px;
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+    font-family: 'Inter', sans-serif;
+    color: #fffdfa;
+    font-weight: 400;
+    cursor: pointer;
+}
+#image--down--right button:hover{
+    background-color:#00001a;
+}
+#right--part{
+    padding: 10px 10px;
+    background-color: #00001a;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#right--part h1{
+    color:hsl(35, 77%, 62%);
+}
+#content--1, #content--2, #content--3{
+    color:#fffdfa;
+}
+#content--1 p, #content--2 p, #content--3 p{
+    color: #c5c6ce;
+}
+#content--1 h3, #content--2 h3, #content--3 h3{
+    cursor: pointer;
+}
+#content--1 h3:hover, #content--2 h3:hover, #content--3 h3:hover{
+    color:hsl(35, 77%, 62%);
+}
+#line--1, #line--2{
+    border-top: 1px solid #c5c6ce;
+}
+@media screen and(max-width:480px){
+    #top--image img{
+        width:90%;
+    }
+    #image--down--part h1, #image--down--right p{
+        font-size: 14px;
+    }
+    #right--part{
+        margin-right: 3px;
+        margin-left: 3px;
+    }
+
+}
+@media screen and (min-width:576px){
+    #image--down--part{
+        display: flex;
+    }
+    #top--container{
+        display: flex;
+        padding: 20px;
+    }
+    #left--part{
+        flex-basis: 90%;
+        margin-left: 30px;
+    }
+    #right--part{
+        margin-right: 30px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    #right--part h1{
+        margin-left: 10px;
+    }
+    #content--1, #content--2, #content--3{
+        padding:10px;
+    }
+    
+}
